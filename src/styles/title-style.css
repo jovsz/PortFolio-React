@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.title {
+    color: #fff;
+}
+
+.wallpaper{
+    background-image: url('../img/h1_hero.png.webp');
+    background-size: cover;
+    height: 100vh;
+}
+
+.padding-top{
+    padding-top: 110px;
+}
+
+
+.profile {
+    background-image: url('../img/empolye.png.webp');
+    background-size:cover;
+    height: 250px;
+    width: 250px;
+}

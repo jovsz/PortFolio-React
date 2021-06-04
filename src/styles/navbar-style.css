@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    background-color: #ff9064;
+    background: #ff9064;
+
+}
+.color {
+    background-color: #ff9064;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{ 
+    padding: 0 20px;
+    color:#fff;
+    text-decoration: none;
+
+}
+
+a:active{
+    color:aliceblue;
+}
+
+li:hover{
+    background-color: #fff;
+} 
+
+a:hover{
+    color:black;
+}
