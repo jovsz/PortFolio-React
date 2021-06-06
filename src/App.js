@@ -1,4 +1,3 @@
-import Home from './components/Home'
 import './styles/about-style.css';
 import './styles/navbar-style.css';
 import './styles/title-style.css';
