@@ -4,9 +4,9 @@ const Proyects = () => {
     return (
         <div className='proyects padding-top col-12  d-flex flex-column align-items-center justify-content-center'>
             <div><p className='fs-3'>My Proyects</p></div>
-            <div className='d-flex col-12'>
-                <div className='col-4 p-5 '>
-                    <div className="card shadow bg-body rounded tobig">                        <div className='proyect1'></div>
+            <div className='d-flex col-12 flex-wrap'>
+                <div className='col-4 p-5'>
+                    <div className="card shadow bg-body tobig">                        <div className='proyect1'></div>
                         <div className="card-body">
                             <h5 className="card-title">To Do List</h5>
                             <p className="card-text"></p>

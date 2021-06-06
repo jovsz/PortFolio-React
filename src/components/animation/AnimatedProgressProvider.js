@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Animate } from "react-move";
 
 class AnimatedProgressProvider extends React.Component {
   interval = undefined;

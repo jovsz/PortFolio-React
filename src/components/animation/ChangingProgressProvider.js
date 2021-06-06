@@ -1,23 +1,25 @@
-import React from 'react';
+import React from "react";
 
 class ChangingProgressProvider extends React.Component {
-    static defaultProps ={
-        interval: 1000
-    };
+  static defaultProps = {
+    interval: 1000
+  };
 
-    state= {
-        valuesIndes: 0
-    };
+  state = {
+    valuesIndex: 0
+  };
 
-    componentDidMount() {
-        setInterval(() => {
-            this.setState({valuesIndex: (this.state.valuesIndex + 1) % this.props.values.length});
-        }, this.props.interval);
-    }
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({
+        valuesIndex: (this.state.valuesIndex + 1) % this.props.values.length
+      });
+    }, this.props.interval);
+  }
 
-    render() {
-        return this.props.childre(this.props.values[this.state.valueIndex]);
-    }
+  render() {
+    return this.props.children(this.props.values[this.state.valuesIndex]);
+  }
 }
 
-export default ChanginProgressProvider;
+export default ChangingProgressProvider;

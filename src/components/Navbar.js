@@ -10,6 +10,10 @@ import {
 import '../styles/navbar-style.css'
 import Proyects from './Proyects';
 import Home from './Home';
+import Skills from './Skills';
+import About from './About';
+import ContactMe from './Contact-me'
+import LoadScreen from './animation/LoadScreen'
 
 
 const Navbar = () => {
@@ -28,30 +32,32 @@ const Navbar = () => {
     return (
         <Router>
             <div> 
+            
             <nav className='navbar shadow-sm fixed-top d-flex color p-3'>
+                <div className='d-inline fs-2 fw-bolder'></div>
                 <ul className='list-group list-group-flush list-group-horizontal col-12 justify-content-end'> 
-                    <li className=''>
+                    <li>
                         <Link to='/'>Home</Link>
                     </li>
-                    <li className=''>
+                    <li>
                         <Link to='/About'>About</Link>
                     </li>
-                    <li className=''>
+                    <li>
                         <Link to='/Skills'>Skills</Link>
                     </li>
-                    <li className=''>
+                    <li>
                         <Link to='/Proyects'>Proyects</Link>
                     </li>
-                    <li className=''>
-                        <Link to='/Contact-me'>Contact Me</Link>
+                    <li>
+                        <Link to='/Contactme'>Contact Me</Link>
                     </li>
                 </ul>
             </nav>
             <Switch>
-                <Route path='/About'><ScrollToTop /></Route>
-                <Route path='/Skills'><ScrollToTop /></Route>
+                <Route path='/About'><LoadScreen /><ScrollToTop /><About /></Route>
+                <Route path='/Skills'><ScrollToTop /><Skills /></Route>
                 <Route path='/Proyects'><ScrollToTop /><Proyects /></Route>
-                <Route path='/Contac-me'><ScrollToTop /></Route>
+                <Route path='/Contactme'><ScrollToTop /><ContactMe /></Route>
                 <Route path='/'><ScrollToTop /><Home  /></Route>  
             </Switch>
             </div>       
