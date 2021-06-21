@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/title-style.css';
+import { BsDownload } from "react-icons/bs";
 
 export const info =  {
     name: 'Jovanny',
@@ -30,6 +31,10 @@ const Title = () => {
                     <p className='fs-4'>Email:</p>
                     <p className='fs-5 fw-light'>{info.email}</p>
                 </div>
+            </div>
+            <div className='d-flex flex-column justify-content-center align-items-center'>
+                <a className='fs-1' href='https://drive.google.com/u/0/uc?id=1xNYfzG9EfuUnSQlGbocpLx2OwDamJZgg&export=download' download><BsDownload /></a>
+                <p className='fs-5 fw-light'>Download CV.</p>
             </div>
         </div>
         

@@ -10,7 +10,7 @@ const Projects = () => {
                     <div className='project1'></div>
                         <div className="card-body">
                             <h5 className="card-title">To Do List</h5>
-                            <p className="card-text"></p>
+                            <p className="card-text fw-light fs-5">This is a CRUD project built on the reaction frame. This project was created with the following libraries: hook from, axios, useEffect, useState.</p>
                             <a href="https://jvz-todo-list.netlify.app" target='_blank' className="btn btn-primary">Link</a>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const Projects = () => {
                         <div className='project2'></div>
                         <div className="card-body">
                             <h5 className="card-title">Rick & Morty app</h5>
-                            <p className="card-text"></p>
+                            <p className="card-text fw-light fs-5">In this project an Api was used to obtain the characters according to their number of inhabitants, the libraries that were used for its operation were: Axios, useEffect, useState.</p>
                             <a href="https://jvs-rick-and-morty.netlify.app" target='_blank' className="btn btn-primary">link</a>
                         </div>
                     </div>

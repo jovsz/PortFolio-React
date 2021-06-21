@@ -46,7 +46,7 @@ const Navbar = () => {
                 </ul>
             </nav>
             <Switch>
-                <Route path='/About'><ScrollToTop /><Aboutme /></Route>
+                <Route path='/Aboutme'><ScrollToTop /><Aboutme /></Route>
                 <Route path='/Proyects'><ScrollToTop /><Proyects /></Route>
                 <Route path='/Contactme'><ScrollToTop /><ContactMe /></Route>
                 <Route path='/'><ScrollToTop /><Home  /></Route>  
