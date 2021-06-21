@@ -5,19 +5,16 @@ import {
     Route, 
     Link,
     useLocation,
-    useRouteMatch
 } from 'react-router-dom';
 import '../styles/navbar-style.css'
-import Proyects from './Proyects';
+import Proyects from './Projects';
 import Home from './Home';
-import Skills from './Skills';
-import About from './About';
+import Aboutme from './About-me';
 import ContactMe from './Contact-me'
-import LoadScreen from './animation/LoadScreen'
+
 
 
 const Navbar = () => {
-
     function ScrollToTop(){
         const {pathname} = useLocation();
 
@@ -27,8 +24,6 @@ const Navbar = () => {
 
         return null;
     }
-    
-
     return (
         <Router>
             <div> 
@@ -40,10 +35,7 @@ const Navbar = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <Link to='/About'>About</Link>
-                    </li>
-                    <li>
-                        <Link to='/Skills'>Skills</Link>
+                        <Link to='/Aboutme'>About</Link>
                     </li>
                     <li>
                         <Link to='/Proyects'>Proyects</Link>
@@ -54,8 +46,7 @@ const Navbar = () => {
                 </ul>
             </nav>
             <Switch>
-                <Route path='/About'><LoadScreen /><ScrollToTop /><About /></Route>
-                <Route path='/Skills'><ScrollToTop /><Skills /></Route>
+                <Route path='/About'><ScrollToTop /><Aboutme /></Route>
                 <Route path='/Proyects'><ScrollToTop /><Proyects /></Route>
                 <Route path='/Contactme'><ScrollToTop /><ContactMe /></Route>
                 <Route path='/'><ScrollToTop /><Home  /></Route>  

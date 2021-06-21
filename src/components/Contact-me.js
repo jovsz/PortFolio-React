@@ -24,13 +24,12 @@ const ContactMe = () => {
         });
         setName('');
         setEmail('');
-        setMessage('');
-        
+        setMessage('');  
     };
 
     return (
-        <div className="contactme d-flex justify-content-center align-items-center">
-            <form className="card rounded d-flex shadow-sm p-3 mb-5 bg-body flex-column" onSubmit={handleSubmit}>
+        <div className=" d-flex justify-content-center align-items-center contact-me">
+            <form className="card rounded d-flex shadow-sm p-3 mb-5 bg-body flex-column contact" onSubmit={handleSubmit}>
                 <div className='mb-3'>
                     <p className='fs-2'>Contact Form</p>
                     <labe classname='form-label'>Name:</labe>

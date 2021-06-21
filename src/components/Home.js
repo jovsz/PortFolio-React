@@ -1,19 +1,19 @@
 import React from 'react';
-import Proyects from './Proyects';
-import Skills from './Skills';
+import Proyects from './Projects';
 import Title from './Title';
-import About from './About';
 import ContactMe from './Contact-me';
-import LoadScreen from './animation/LoadScreen'
+import Footer from './Footer';
+import Aboutme from './About-me';
+
 
 const Home = () => {
     return(
         <div>
             <Title />
-            <About />
-            <Skills />
+            <Aboutme />
             <Proyects />
             <ContactMe />
+            <Footer />
         </div>
         
     )

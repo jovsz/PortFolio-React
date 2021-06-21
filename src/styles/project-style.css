@@ -1,4 +1,4 @@
-.proyect1 {
+.project1 {
     background-image: url('../img/proyects/Screenshot_1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +7,7 @@
     background-position: center;
 }
 
-.proyect2 {
+.project2 {
     background-image: url('../img/proyects/Screenshot_2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
     background-position: center;
 }
 
-.proyect3 {
+.project3 {
     background-image: url('../img/proyects/Screenshot_3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +25,7 @@
     background-position: center;
 }
 
-.proyect4 {
+.project4 {
     background-image: url('../img/proyects/Screenshot_4.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,8 +34,8 @@
     background-position: center;
 }
 
-.proyect5 {
-    background-image: url('../img/proyects/Screenshot_5.png');
+.project5 {
+    background-image: url('../img/proyects/Screenshot_8.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -43,7 +43,7 @@
     background-position: center;
 }
 
-.proyect6 {
+.project6 {
     background-image: url('../img/proyects/Screenshot_6.png');
     background-repeat: no-repeat;
     background-size: cover;
