@@ -2,7 +2,7 @@ import './styles/about-style.css';
 import './styles/navbar-style.css';
 import './styles/title-style.css';
 import './styles/project-style.css';
-
+import './App.css'
 
 import Navbar from './components/Navbar';
 

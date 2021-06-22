@@ -4,9 +4,10 @@ import { BsDownload } from "react-icons/bs";
 
 export const info =  {
     name: 'Jovanny',
-    fullame: 'Jovanny Fuentes',
+    fullname: 'Jovanny Fuentes',
     email: 'Jovannyfuentesm@gmail.com',
-    phone: '+52 664 678 2739'
+    phone: '+52 664 678 2739',
+    location: 'Tijuana, B.C, Mexico'
 }
 
 const Title = () => {

@@ -8,6 +8,11 @@
     color: #fff;
 }
 
+.wallpaper1{
+    background-image: url('../img/h1_hero.png.webp');
+    background-size: cover;
+}
+
 .wallpaper{
     background-image: url('../img/h1_hero.png.webp');
     background-size: cover;

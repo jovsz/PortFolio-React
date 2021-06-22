@@ -60,6 +60,8 @@
     background-image: url('../img/about-me.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    display:relative;
+    top: 100px;
     width:500px;
-    height: 300px;
+    height: 400px;
 }

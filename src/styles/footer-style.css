@@ -9,3 +9,16 @@
     color: black;
 }
 
+.tobigIcon{
+    opacity:0.9;
+    transition: 1s ease;
+    background-color: #fff;
+}
+    
+.tobigIcon:hover{
+    opacity:1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1.1);
+    transform: scale(2.1);
+    transition: 1s ease;
+}

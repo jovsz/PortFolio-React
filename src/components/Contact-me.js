@@ -28,7 +28,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className=" d-flex justify-content-center align-items-center contact-me">
+        <div className=" d-flex justify-content-center align-items-center contact-me wallpaper">
             <form className="card rounded d-flex shadow-sm p-3 mb-5 bg-body flex-column contact" onSubmit={handleSubmit}>
                 <div className='mb-3'>
                     <p className='fs-2'>Contact Form</p>
