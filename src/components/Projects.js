@@ -30,7 +30,7 @@ const Projects = () => {
                         <div className='project3'></div>
                         <div className="card-body">
                             <h5 className="card-title fw-bold">Weather app</h5>
-                            <p className="card-text fw-light fs-6">The project Weather app were built using geolocation library to get the geolocation of each user and then it could display the current wheather from that location</p>
+                            <p className="card-text fw-light fs-6">The project Weather app were built using geolocation library to get the geolocation of each user and then it could display the current weather from that location</p>
                             <a href="https://agitated-mirzakhani-55228f.netlify.app" target='_blank' rel="noreferrer"  className="btn btn-primary">Link</a>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const Projects = () => {
                         <div className='project5'></div>
                         <div className="card-body">
                             <h5 className="card-title fw-bold">Pokedex</h5>
-                            <p className="card-text fw-light fs-6">The pokedex App is to obtain the information of each pokemon and then display it depending on the query of user selected</p>
+                            <p className="card-text fw-light fs-6">The pokedex App is to obtain the information of each pokemon and then it will display, it depending on the query that user make</p>
                             <a href="https://poke-app-v2.netlify.app/" target='_blank' rel="noreferrer"  className="btn btn-primary">Link</a>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const Projects = () => {
                         <div className='project6'></div>
                         <div className="card-body">
                             <h5 className="card-title fw-bold">Open Trivia App</h5>
-                            <p className="card-text fw-light fs-6">This is an App built on vanilla JavaScript, it principal funcion its get the Ask, Category and answers from the API and then compare both answers and get the finnal score</p>
+                            <p className="card-text fw-light fs-6">This is an App built on vanilla JavaScript, it principal funcion it's get the questions and answers from the API and then compare both answers and get the a final score</p>
                             <a href="https://apiopen-trivia.netlify.app" target='_blank' rel="noreferrer"  className="btn btn-primary">Link</a>
                         </div>
                     </div>
