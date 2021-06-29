@@ -7,6 +7,10 @@
     color: black;
 }
 
+.font{
+    color: #fff;
+}
+
 .service1 {
     background-image: url('../img/about/services1.svg');
     background-repeat: no-repeat;

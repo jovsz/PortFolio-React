@@ -13,7 +13,7 @@ export const info =  {
 const Title = () => {
     return (
         <div className='title col-12 padding-top wallpaper d-flex  flex-column justify-content-center align-items-center'>
-            <div className='d-flex col-8 justify-content-between align-items-center'>
+            <div className='d-flex col-8 justify-content-between align-items-center title-1'>
                 <div className='profile col-4'></div>
                 <div className='col-8'>
                     <h1 className='fs-1'>My name is {info.name}. Web Developer</h1>

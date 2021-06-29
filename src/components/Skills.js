@@ -11,11 +11,11 @@ import AnimatedProgressProvider from "./animation/AnimatedProgressProvider";
 
 const Skills = () => {
     return(
-        <div className='pt-5 d-flex justify-content-center align-center'>
-            <div className='pt-5 p-5 col-12 d-flex justify-content-center flex-column'>
-                <div className='d-flex p-2 justify-content-start col-12 '>
+        <div className='p-3 d-flex justify-content-center align-center col-12'>
+            <div className='col-12 d-flex justify-content-center flex-column'>
+                <div className='d-flex justify-content-start col-12 '>
                     <div className='col-12 d-flex p-2 flex-nowrap'>
-                        <div className='d-flex'>
+                        <div className=''>
                             <p className='fs-6'><i class="fab fa-html5"></i>HTML</p>
                             <AnimatedProgressProvider
                                 valueStart={0}
@@ -38,7 +38,7 @@ const Skills = () => {
                                 }}
                             </AnimatedProgressProvider>
                         </div>
-                        <div className='d-flex'>
+                        <div className=''>
                             <p className='fs-6'><i class="fab fa-css3-alt"></i> CSS</p>
                             <AnimatedProgressProvider
                                 valueStart={0}
@@ -61,7 +61,7 @@ const Skills = () => {
                                 }}
                             </AnimatedProgressProvider>
                         </div>
-                        <div className='d-flex'>
+                        <div className=''>
                             <p className='fs-6'><i class="fab fa-js-square"></i> JavaScript</p>
                             <AnimatedProgressProvider
                                 valueStart={0}
@@ -84,7 +84,7 @@ const Skills = () => {
                                 }}
                             </AnimatedProgressProvider>
                         </div>
-                        <div className='d-flex'>
+                        <div className=''>
                             <p className='fs-6'><i class="fab fa-react"></i> React</p>
                             <AnimatedProgressProvider
                                 valueStart={0}

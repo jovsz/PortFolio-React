@@ -4,8 +4,8 @@ import Skills from './Skills';
 const Aboutme = () =>{
     return (
         <div className='About-container pt-5 d-flex flex-wrap col-12 justify-content-center align-items-center'>
-            <div className='col-12 border m-3 d-flex flex-row justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body about-me wallpaper1'>
-                <div className='col-6 p-5'>
+            <div className='col-12 border d-flex flex-row justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body about-me wallpaper1 about-container'>
+                <div className='col-6 p-5 font'>
                     <p className='fs-2 fw-bolder'>Hello Word!</p>
                     <p className='fw-light text-md-start'>Welcome to my portfolio, I'm {info.fullname}, I'm a web developer</p>
                     <p className='fw-light text-md-start'>I am a very enthusiastic person for technology, I am currently studying full stack web development, I like to work in a team and share ideas openly with everyone.</p>

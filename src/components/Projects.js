@@ -2,20 +2,10 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className='proyects padding-top col-12  d-flex flex-column align-items-center justify-content-center shadow pt-5 mb-5 bg-body rounded'>
-            <div><p className='fs-2 fw-bolder pt-2'>My Projects</p></div>
+        <div className='proyects col-12  d-flex flex-column align-items-center justify-content-center shadow pt-5 mb-5 bg-body rounded'>
+            <div><p className='fs-2 pt-5 fw-bolder pt-2 font'>My Projects</p></div>
             <div className='d-flex col-12 flex-wrap'>
-                <div className='col-4 p-5'>
-                    <div className="card shadow bg-body tobig">                        
-                    <div className='project1'></div>
-                        <div className="card-body">
-                            <h5 className="card-title fw-bold">To Do List</h5>
-                            <p className="card-text fw-light fs-6">This is a CRUD project built on the reaction frame. This project was created with the following libraries: hook from, axios, useEffect, useState.</p>
-                            <a href="https://jvz-todo-list.netlify.app" target='_blank' rel="noreferrer" className="btn btn-primary">Link</a>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-4 p-5 '>
+                <div className='col-4 p-3 '>
                     <div className="card shadow bg-body rounded tobig">
                         <div className='project2'></div>
                         <div className="card-body">
@@ -25,7 +15,18 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-4 p-5 '>
+                <div className='col-4 p-3'>
+                    <div className="card shadow bg-body tobig">                        
+                    <div className='project1'></div>
+                        <div className="card-body">
+                            <h5 className="card-title fw-bold">To Do List</h5>
+                            <p className="card-text fw-light fs-6">This is a CRUD project built on the reaction frame. This project was created with the following libraries: hook from, axios, useEffect, useState.</p>
+                            <a href="https://jvz-todo-list.netlify.app" target='_blank' rel="noreferrer" className="btn btn-primary">Link</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className='col-4 p-3 '>
                     <div className="card shadow bg-body rounded tobig">
                         <div className='project3'></div>
                         <div className="card-body">
@@ -37,7 +38,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='d-flex col-12'>
-                <div className='col-4 p-5 '>
+                <div className='col-4 p-3 '>
                     <div className="card shadow bg-body rounded tobig">
                         <div className='project4'></div>
                         <div className="card-body">
@@ -47,7 +48,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-4 p-5 '>
+                <div className='col-4 p-3 '>
                     <div className="card shadow bg-body rounded tobig">
                         <div className='project5'></div>
                         <div className="card-body">
@@ -57,7 +58,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-4 p-5 '>
+                <div className='col-4 p-3 '>
                     <div className="card shadow-lg bg-body rounded tobig">
                         <div className='project6'></div>
                         <div className="card-body">
