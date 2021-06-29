@@ -3,7 +3,7 @@ import Skills from './Skills';
 
 const Aboutme = () =>{
     return (
-        <div className='About-container pt-5 d-flex flex-wrap col-12 justify-content-center align-items-center'>
+        <div className='About-container pt-5 col-12 justify-content-center align-items-center'>
             <div className='col-12 border d-flex flex-row justify-content-center align-items-center shadow-lg p-3 mb-5 bg-body about-me wallpaper1 about-container'>
                 <div className='col-6 p-5 font'>
                     <p className='fs-2 fw-bolder'>Hello Word!</p>

@@ -13,8 +13,8 @@ const Skills = () => {
     return(
         <div className='p-3 d-flex justify-content-center align-center col-12'>
             <div className='col-12 d-flex justify-content-center flex-column'>
-                <div className='d-flex justify-content-start col-12 '>
-                    <div className='col-12 d-flex p-2 flex-nowrap'>
+                <div className='col-12 '>
+                    <div className='col-12 justify-content-center pb-5 d-flex flex-nowrap'>
                         <div className=''>
                             <p className='fs-6'><i class="fab fa-html5"></i>HTML</p>
                             <AnimatedProgressProvider
